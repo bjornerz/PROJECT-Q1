@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navlinks">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#works">My Works</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <img src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-5FC8418C03ECE8F12E6FBB9E85480388-Png/150/150/AvatarHeadshot/Webp/noFilter" alt="profile picture" class="pfp">
+        <h1>Hi! Welcome to Bjorn's Cove!</h1>
+        <h2>Looking for a professional graphic designer?</h2>
+    </section>
+
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Ever since I was a kid, I always wanted to design things, unleash my creativity and share my interests; what started off as a small hobby developed into big passion that I am glad to call my own.</p>
+    </section>
+
+
+    <section id="works">
+        <h1>My Works</h1>
+        <div class="works-gallery">
+
+            <div class="work-item">
+                <img src="THE NIGHT OF TWILGIHT.jpg" alt="Project2" style="border: 2px dashed black" width="350px">
+                <p>(2021, Roblox Studio)</p>
+            </div>
+
+            <div class="work-item">
+                <ul>
+                    <li> Created in Roblox Studio</li>
+                    <li> Themes: WWI, Historical</li>
+                    <li> "Loner"</li>
+                    <li> <a href="">View</a></li>
+                </ul>
+            </div>
+
+            <div class="work-item">
+                <img src="Dead Before Daylight.png" alt="Project1" style="border: 2px dashed black" width="350px">
+                <p>"Dead Before Daylight"</p>
+            </div>
+
+            <div class="work-item">
+                <ul>
+                    <li> Created in Roblox Studio and editted using Adobe Photoshop</li>
+                    <li> Themes: WWI, Historical, Battle</li>
+                    <li> Roblox Vignette/GFX</li>
+                    <li> <a href="">View</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="form-container">
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe">
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="janedoe@gmail.com">
+                <br>
+
+                <label>How did you find me?</label>
+                <div class="radio-group">
+                    <input type="radio" id="r1" name="r-selection" value="1" required>
+                    <label for="r1">Facebook</label>
+
+                    <input type="radio" id="r2" name="r-selection" value="2" required>
+                    <label for="r2">Instagram</label>
+
+                    <input type="radio" id="r3" name="r-selection" value="3" required>
+                    <label for="r3">Discord</label>
+                </div>
+
+                <br>
+
+                <label>Interested in:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="ch1" name="interests" value="checkbox1">
+                    <label for="ch1">Web Design</label>
+
+                    <input type="checkbox" id="ch2" name="interests" value="checkbox2">
+                    <label for="ch2">Graphics Design</label>
+
+                    <input type="checkbox" id="ch3" name="interests" value="checkbox3">
+                    <label for="ch3">Robotics</label>
+                </div>
+
+                <br>
+
+                <label for="selection">Rate My Portfolio</label>
+                <select id="selection" name="selection" required>
+                    <option value="">--Select Rating--</option>
+                    <option value="1">⭐️</option>
+                    <option value="2">⭐️⭐️</option>
+                    <option value="3">⭐️⭐️⭐️</option>
+                    <option value="4">⭐️⭐️⭐️⭐️</option>
+                    <option value="5">⭐️⭐️⭐️⭐️⭐️</option>
+                </select>
+
+                <br>
+
+                <label for="feedback">Any Feedback?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="write your feedback here..." required></textarea>
+
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2026 Bjorn Bengco, 9-Emerald. All rights reserved.</p>
+    </footer>
+</body>
+</html>
